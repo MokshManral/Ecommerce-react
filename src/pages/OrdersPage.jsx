@@ -27,7 +27,7 @@ export function OrderPage({ cart }) {
         <div className="page-title">Your Orders</div>
 
         <div className="orders-grid">
-          {orders.map((order) => {            
+          {orders.map((order) => {
             return (
               <div key={order.id} className="order-container">
                 <div className="order-header">
